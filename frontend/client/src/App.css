@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.App .book-form {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.App .book-form input {
+  width: 70%;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.App .book-form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.App .book-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.App .book-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.App .book-list ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.App .book-list ul li span {
+  font-size: 1.2rem;
+}
+
+.App .book-list ul li button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
